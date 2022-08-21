@@ -1,0 +1,22 @@
+FoamFile{version 2.0;format ascii;class dictionary;location "constant";object fvOptions;}
+hFix 
+{type scalarmyFixedValueConstraint;
+active true;
+selectionMode cellSet;
+cellSet hfix;
+volumeMode absolute;
+fieldValues {h 1;}
+}
+cfix0 {type scalarmyFixedValueConstraint; active true;selectionMode cellSet; cellSet cfix; volumeMode absolute;fieldValues {Cw0 1;}}
+cfix1 {type scalarmyFixedValueConstraint; active true;selectionMode cellSet; cellSet cfix; volumeMode absolute;fieldValues {Cw1 1;}}
+cfix2 {type scalarmyFixedValueConstraint; active true;selectionMode cellSet; cellSet cfix; volumeMode absolute;fieldValues {Cw2 1;}}
+cfix3 {type scalarmyFixedValueConstraint; active true;selectionMode cellSet; cellSet cfix; volumeMode absolute;fieldValues {Cw3 1;}}
+cfix4 {type scalarmyFixedValueConstraint; active true;selectionMode cellSet; cellSet cfix; volumeMode absolute;fieldValues {Cw4 1;}}
+cfix5 {type scalarmyFixedValueConstraint; active true;selectionMode cellSet; cellSet cfix; volumeMode absolute;fieldValues {Cw5 1;}}
+cfix6 {type scalarmyFixedValueConstraint; active true;selectionMode cellSet; cellSet cfix; volumeMode absolute;fieldValues {Cw6 1;}}
+cfix7 {type scalarmyFixedValueConstraint; active true;selectionMode cellSet; cellSet cfix; volumeMode absolute;fieldValues {Cw7 1;}}
+cfix8 {type scalarmyFixedValueConstraint; active true;selectionMode cellSet; cellSet cfix; volumeMode absolute;fieldValues {Cw8 1;}}
+cfix9 {type scalarmyFixedValueConstraint; active true;selectionMode cellSet; cellSet cfix; volumeMode absolute;fieldValues {Cw9 1;}}
+cfix10 {type scalarmyFixedValueConstraint; active true;selectionMode cellSet; cellSet cfix; volumeMode absolute;fieldValues {Cw10 1;}}
+cfix11 {type scalarmyFixedValueConstraint; active true;selectionMode cellSet; cellSet cfix; volumeMode absolute;fieldValues {Cw11 1;}}
+cfix12 {type scalarmyFixedValueConstraint; active true;selectionMode cellSet; cellSet cfix; volumeMode absolute;fieldValues {Cw12 1;}}

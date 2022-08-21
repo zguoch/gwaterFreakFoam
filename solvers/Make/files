@@ -1,0 +1,3 @@
+gwaterFoam3ek.C  
+
+EXE = $(FOAM_USER_APPBIN)/gwaterFoam3ek
